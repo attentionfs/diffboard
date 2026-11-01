@@ -2,7 +2,7 @@ import { existsSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 
 const TEMPLATE = `// diffboard.config.js
-// See https://github.com/Laaaaksh/diffboard#configuration for every option.
+// See https://github.com/attentionfs/diffboard#configuration for every option.
 export default {
   // Where your self-hosted Diffboard dashboard runs.
   serverUrl: process.env.DIFFBOARD_SERVER_URL ?? "http://localhost:4300",

@@ -7,10 +7,10 @@ regression testing tool: a Playwright-powered CLI that screenshots your app in C
 it against an approved baseline, plus a review dashboard where a human approves or rejects
 each change before the build goes green.
 
-[![Star this repo](https://img.shields.io/github/stars/Laaaaksh/diffboard?style=for-the-badge&logo=github&label=star%20this%20repo&color=yellow)](https://github.com/Laaaaksh/diffboard/stargazers)
+[![Star this repo](https://img.shields.io/github/stars/attentionfs/diffboard?style=for-the-badge&logo=github&label=star%20this%20repo&color=yellow)](https://github.com/attentionfs/diffboard/stargazers)
 [![Built for Playwright](https://img.shields.io/badge/built_for-Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev)
 
-[![CI](https://github.com/Laaaaksh/diffboard/actions/workflows/ci.yml/badge.svg)](https://github.com/Laaaaksh/diffboard/actions/workflows/ci.yml)
+[![CI](https://github.com/attentionfs/diffboard/actions/workflows/ci.yml/badge.svg)](https://github.com/attentionfs/diffboard/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)](packages)
 [![Docker self-hosted](https://img.shields.io/badge/self--hosted-docker--compose-2496ED?logo=docker&logoColor=white)](#install)
@@ -68,7 +68,7 @@ dashboard with an explicit approve-or-reject step, not just a diff report to rea
 **1. Run the dashboard.** From a clone of this repo:
 
 ```bash
-git clone https://github.com/Laaaaksh/diffboard.git
+git clone https://github.com/attentionfs/diffboard.git
 cd diffboard
 cp .env.example .env
 # edit .env: SESSION_SECRET (openssl rand -hex 32), ADMIN_EMAIL, ADMIN_PASSWORD
@@ -88,7 +88,7 @@ npm install -g diffboard
 > install. Until a `v0.1.0` release goes out, build the CLI from source instead:
 >
 > ```bash
-> git clone https://github.com/Laaaaksh/diffboard.git
+> git clone https://github.com/attentionfs/diffboard.git
 > cd diffboard && corepack enable && pnpm install
 > pnpm --filter @diffboard/core run build
 > pnpm --filter diffboard run build
@@ -183,7 +183,7 @@ See [SECURITY.md](SECURITY.md) for how to report a vulnerability privately.
 ## Star this repo
 
 If diffboard is useful, a star helps other people find it:
-[github.com/Laaaaksh/diffboard/stargazers](https://github.com/Laaaaksh/diffboard/stargazers).
+[github.com/attentionfs/diffboard/stargazers](https://github.com/attentionfs/diffboard/stargazers).
 
 ## License
 
